@@ -1,0 +1,13 @@
+.album-list {
+    display: flex;
+    flex-flow: row nowrap;
+    
+    padding: 0;
+    margin: 0 -20px; //trung hoa 2 padding o 2 ben
+    list-style-type: none;
+    padding: 0;
+    
+    & > li {
+        padding: 0 20px;
+    }
+}
