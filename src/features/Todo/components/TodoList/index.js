@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
-import React from 'react'
-import PropTypes from 'prop-types'
 import classnames from 'classnames'
+import PropTypes from 'prop-types'
+import React from 'react'
 import './styles.scss'
 
 const TodoList = (props) => {
