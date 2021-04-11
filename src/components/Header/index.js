@@ -10,12 +10,11 @@ import { AccountCircle, Close } from '@material-ui/icons';
 import MenuIcon from '@material-ui/icons/Menu';
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import StorageKeys from '../../constants/storage-keys';
 import Login from '../../features/Auth/components/Login';
 import Register from '../../features/Auth/components/Register';
-import logo  from '../Header/l2.jpg'
-import './style.scss'
+import './style.scss';
 
 const useStyles = makeStyles((theme) => ({
   root: {
