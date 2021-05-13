@@ -1,7 +1,6 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import { Box, Typography, makeStyles, TextField, Button } from '@material-ui/core';
-import categoryApi from '../../../../api/categoryApi';
 
 const useStyles = makeStyles ((theme)=>({
     root: {

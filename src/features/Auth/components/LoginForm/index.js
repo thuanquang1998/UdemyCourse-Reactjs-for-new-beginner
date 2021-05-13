@@ -73,7 +73,17 @@ const LoginForm = props => {
             <form onSubmit={form.handleSubmit(handleSubmit)}>
                 <InputField name='identifier' label="Email" form={form}/> 
                 <PasswordField name='password' label="Password" form={form}/> 
-                <Button disabled={isSubmitting} type="submit" className={classes.submit} variant="contained" color="primary" fullWidth>Sign in</Button>
+                <Button 
+                    disabled={isSubmitting} 
+                    type="submit" 
+                    className={classes.submit} 
+                    variant="contained" 
+                    color="primary" 
+                    fullWidth
+                    size="large"
+                >
+                    Sign in
+                </Button>
             </form>
         </div>
     )

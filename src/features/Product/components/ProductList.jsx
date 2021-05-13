@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Grid } from '@material-ui/core';
-import { Skeleton } from '@material-ui/lab';
 import Product from './Product';
 
 function ProductList({ data = [] }) {
