@@ -20,7 +20,11 @@ const useStyles = makeStyles(theme => ({
     right: {
         flex: '1 1 0'
     },
-    
+    loading: {
+        position:'fixed',
+        top: '0',
+        width:"100%",
+    }
 }))
 
 function ListPage(props) {
@@ -104,7 +108,11 @@ function ListPage(props) {
         })
     }
     if (loading) {
-        return <LinearProgress />
+        return (
+            <Box className={classes.loading}>
+                <LinearProgress />
+            </Box>
+        )
     }
     return (
         <Box>

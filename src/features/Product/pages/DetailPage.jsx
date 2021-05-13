@@ -49,8 +49,11 @@ function DetailPage(props) {
     } 
 
     const handleAddToCartSubmit = (formValues) => {
-        const action = {};
-        console.log('aciton :>> ', action);
+        const action = addToCart({
+            id: product.id,
+            product,
+            quantity: formValues.quantity
+        });
         dispatch(action);
 
     }
